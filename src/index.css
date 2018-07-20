@@ -1,5 +1,16 @@
+html {
+  height: 100%;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+
+.w-knight {
+  width: 50%;
+  height: 100px;
+  background: url('https://vignette.wikia.nocookie.net/chess/images/e/e5/Chancellor_Piece.png/revision/latest?cb=20130526142139')
+    center center no-repeat;
+  background-size: contain;
 }
