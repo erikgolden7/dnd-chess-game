@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Board from './components/Board';
 import './index.css';
-import App from './components/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <Board knightPosition={[7, 4]} />,
+  document.getElementById('root')
+);
